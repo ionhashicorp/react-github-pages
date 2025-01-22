@@ -2,9 +2,14 @@
 
 ```console
 #
-# Create React template: https://vite.dev/guide/#scaffolding-your-first-vite-project
+# Enable github pages: https://github.com/ionhashicorp/react-github-pages/settings/pages
 #
-npm create vite@latest
+Select Github Actions > GitHub Actions
+
+#
+# Create React Router: https://reactrouter.com/start/framework/installation
+#
+npx create-react-router@latest react-github-pages
 
 #
 # GitHub pages with GitHub Actions: https://vite.dev/guide/static-deploy.html#github-pages
